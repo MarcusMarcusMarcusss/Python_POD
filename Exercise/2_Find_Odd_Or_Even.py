@@ -1,7 +1,7 @@
 
 #reading user inputs and check if the number is odd or even
 #find last digit from the user input & first digit
-                                          #first digit
+                                          #first digit      import math
                                           #digits = (int)(math.log10(userInput)) 
                                           #firstDigit = (int)(userInput / pow(10, digits))
 # in this case i ll be using last digit
