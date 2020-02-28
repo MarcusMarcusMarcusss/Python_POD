@@ -22,7 +22,7 @@ Given List below :
                                                                                               .... 10101 =21  ....
                                                                                               you right those are all bullshits
                                                                                                 For this you need to use tortois and hares algorithm
-                                                                                                  0*1 0*2 0*3 0*4  : this algorithm allows one runs twice as fast as another inhelps to solve (o)2
+                                                                                                  0*1 0*2 0*3 0*4  : this algorithm allows one value run twice as fast and avoid run time complexity 0(n2) 
 def duplicateItem(nums):
       mose=nums[0]
       hary=nums[0]
