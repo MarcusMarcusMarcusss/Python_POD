@@ -23,22 +23,22 @@ Given List below :
                                                                                               you right those are all bullshits
                                                                                                 For this you need to use tortois and hares algorithm
                                                                                                   0*1 0*2 0*3 0*4  : this algorithm allows one runs twice as fast as another inhelps to solve (o)2
-    def duplicateItem(nums):
+def duplicateItem(nums):
       mose=nums[0]
       hary=nums[0]
-
-      while true
+      while True:
         mose=nums[mose]
         hary=nums[nums[hary]]
-        mose==harry
-        break;
-       //if no duplicate items break
-       
-       ptr1=mose
-       ptr2=nums[0]
-       while ptr1 != ptr2
-       return ptr2
-       
-       prinf(duplicateItem([1,4,2,3,5,6,3]));
+        if mose == hary:
+           break
+   
+        ptr2=nums[0]
+        ptr3=mose
+        while ptr2 != ptr3:
+          ptr2=nums[ptr2]
+          ptr3=nums[ptr3]
+          return ptr3
+  
+print(duplicateItem([1,4,2,3,5,6,3]))
        
       
